@@ -1,0 +1,32 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.page {
+    color:white;
+    background-color:#6439ff;;
+    border-radius: 50%;
+    margin:10px;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    line-height: 25px;
+}
+
+
+.selected {
+    background-color: #fff;
+    color:black
+}
+
+
+.paginationContainer {
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+.disabled {
+    background: gray;
+    cursor:not-allowed;
+}
